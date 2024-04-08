@@ -1,0 +1,34 @@
+{
+  "watchs": [
+    {
+      "brand": "Cartier",
+      "model": "Santos Galbee",
+      "available": true,
+      "precio": 4900
+    },
+    {
+      "brand": "Omega",
+      "model": "Seamaster",
+      "available": true,
+      "precio": 5300
+    },
+    {
+      "brand": "Rolex",
+      "model": "Submariner",
+      "available": true,
+      "precio": 10.9
+    },
+    {
+      "brand": "Rolex",
+      "model": "Daytona",
+      "available": false,
+      "precio": 19.5
+    },
+    {
+      "brand": "Hublot",
+      "model": "Classic",
+      "available": false,
+      "precio": 3500
+    }
+  ]
+}
