@@ -8,7 +8,9 @@ import { watch } from '../../../../model';
 export class StoreService {
   private watchSignal = signal<watch[]>([]);
   public watchState = this.watchSignal.asReadonly();
-  constructor(private repoSvc: RepoService) {}
+  constructor(private repoSvc: RepoService) {
+    this.getProduct;
+  }
 
   getProduct() {
     this.repoSvc.getWatchs().subscribe({
@@ -20,7 +22,7 @@ export class StoreService {
       },
     });
   }
-  sendPets() {
+  sendWatchs() {
     return this.watchSignal();
   }
 }
