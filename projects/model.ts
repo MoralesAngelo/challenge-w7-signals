@@ -1,4 +1,4 @@
-export interface watchs {
+export interface watch {
   brand: string;
   model: string;
   available: boolean;
