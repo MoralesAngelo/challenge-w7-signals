@@ -16,13 +16,13 @@
       "brand": "Rolex",
       "model": "Submariner",
       "available": true,
-      "precio": 10.9
+      "precio": 10900
     },
     {
       "brand": "Rolex",
       "model": "Daytona",
       "available": false,
-      "precio": 19.5
+      "precio": 19500
     },
     {
       "brand": "Hublot",
